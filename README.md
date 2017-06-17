@@ -1,6 +1,6 @@
 # Simple Gifts Theme:
 
-![Alt text](Assets/Secreen/Boxed-Big.png?raw=true "Theme Boxes")
+![Simple Gifts Theme](Assets/Screen/Boxed-Big.png?raw=true "Theme Boxes")
 
 
 [DEMO](http://52.40.104.181/project/Simple-Gifts/)
