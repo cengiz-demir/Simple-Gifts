@@ -1,0 +1,1617 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>Simple Gifts Theme</title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+    <style type="text/css" media="screen">
+        p,
+        table,
+        hr,
+        .box {
+            margin-bottom: 25px;
+        }
+        
+        .box p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container">
+
+        <h3 class="center alt">&ldquo;Simple Gifts Themee&rdquo; Documentation by &ldquo;Template Author&rdquo; v1.0</h3>
+
+        <hr>
+
+        <h1 class="center">&ldquo;Simple Gifts Theme&rdquo;</h1>
+
+        <div class="borderTop">
+            <div class="span-6 colborder info prepend-1">
+                <p class="prepend-top">
+                    <strong>
+					Created: 01/07/2016<br>
+					By: Cengiz Demir<br>
+					Email: <a href="mailto:demircengiz23@gmail.com">demircengiz23@gmail.com</a>
+					</strong>
+                </p>
+            </div>
+            <!-- end div .span-6 -->
+
+            <div class="span-12 last">
+                <p class="prepend-top append-0"> If you have any questions that are beyond the scope of this help file, please feel free to email. Thanks so much!</p>
+            </div>
+        </div>
+        <!-- end div .borderTop -->
+
+        <hr>
+
+        <h2 id="toc" class="alt">Table of Contents</h2>
+        <ol class="alpha">
+            <li><a href="#first">Overview Theme</a></li>
+            <li><a href="#second">Template</a></li>
+            <li><a href="#third">Folder Structure</a></li>
+            <li><a href="#fourth">HTML Structure</a></li>
+            <li><a href="#fifth"> JavaScript</a></li>
+            <li><a href="#sixth">Sources and Credits</a></li>
+            <li><a href="#seventh">Frequently asked questions</a></li>
+            
+        </ol>
+
+        <hr>
+
+        <h3 id="first"><strong>A) Overview Theme</strong> - <a href="#toc">top</a></h3>
+        <p>The purposes of this theme, increase concepts of blog design. For this purpose, we created powerful, responsive and clean professional blog theme.
+            <br/> Simple Gifts Theme has five post modals and post alternatives. Theme has eight homepage modal. That are;
+            <br> - Full-Width (index.html)
+            <br> - Full-Width and Fixed (index-full-width-and-fixed.html)
+            <br> - Full-Width and Opacity (index-full-width-and-opacity.html)
+            <br> - Full-Width, Opacity and Fixed (index-full-width-opacity-and-fixed.html)
+            <br>
+            <br> - Boxed (boxed.html)
+            <br> - Boxed and Fixed (index-boxed-and-fixed.html)
+            <br> - Boxed and Opacity (index-boxed-and-opacity.html)
+            <br> - Boxed, Opacity and Fixed (index-boxed-opacity-and-fixed.html)
+            <br> Also has three color Sidebar has collapse feature and it powered with nice scroll. The theme has Mega Menu. Also the menu has multi colon, page, google map and more features.</p>
+
+        <hr>
+
+        <h3 id="second"><strong>B) Template</strong> - <a href="#toc">top</a></h3>
+        <img src="assets/images/Template.png" alt="Template" style="width:100%; height:auto;">
+        <hr>
+
+        <h3 id="third"><strong>C) Folder Structure</strong> - <a href="#toc">top</a></h3>
+
+        <p>
+            <br> |-- bootstrap/
+            <br> |-- css/
+            <br> |-- font-awesome/
+            <br> |-- sass/
+            <br> |-- images/
+            <br> |-- js/
+            <br>
+        </p>
+
+        <hr>
+
+        <h3 id="fourth"><strong>D) HTML Structure</strong> - <a href="#toc">top</a></h3>
+
+        <h4>Page Head</h4>
+
+
+       <table border="1" cellpadding="1" cellspacing="1" style="width: 100%;background-color: #f1f1f1;">
+	<tbody>
+		<tr>
+			<td>
+				<div>
+					&lt;!DOCTYPE html&gt;</div>
+				<div>
+					&lt;html lang=&quot;en&quot;&gt;</div>
+				<div>
+					&lt;head&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;meta charset=&quot;utf-8&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;title&gt;Simple Gifts HTML Theme&lt;/title&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;meta name=&quot;keywords&quot; content=&quot;&quot; /&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;meta name=&quot;author&quot; content=&quot;&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;link rel=&quot;shortcut icon&quot; href=&quot;images/favicon.ico&quot;&gt;</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &lt;!--Core CSS --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;link href=&quot;css/style.css&quot; rel=&quot;stylesheet&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;link href=&quot;css/style-responsive.css&quot; rel=&quot;stylesheet&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;link href=&quot;bootstrap/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;link href=&quot;font-awesome/css/font-awesome.css&quot; rel=&quot;stylesheet&quot; /&gt;</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &lt;!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;!-- WARNING: Respond.js doesn&#39;t work if you view the page via file:// --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;!--[if lt IE 9]&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &lt;script src=&quot;https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js&quot;&gt;&lt;/script&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &lt;script src=&quot;https://oss.maxcdn.com/respond/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;</div>
+				<div>
+					&nbsp; &nbsp; &lt;![endif]--&gt;</div>
+				<div>
+					&lt;/head&gt;</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+
+
+
+
+        <h4>Header</h4>
+        <table border="1" cellpadding="1" cellspacing="1" style="width: 100%;background-color: #f1f1f1;">
+	<tbody>
+		<tr>
+			<td>
+				<div>
+					&lt;!-- BEGIN HEADER --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &lt;header class=&quot;header clearfix&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;topbar topbar-left&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;logo&quot; href=&quot;index.html&quot; title=&quot;Simple Gifts&quot;&gt;&lt;img alt=&quot;logo&quot; src=&quot;images/logo.png&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sidebar-arrow-box sidebar-left-box box_rotateback box_transitionback&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;i class=&quot;fa fa-arrow-left arrow&quot;&gt;&lt;/i&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;topbar-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h1 class=&quot;topbar-title&quot;&gt;Jhone Doe&lt;/h1&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h2 class=&quot;topbar-description&quot;&gt;Photographer of Natural&lt;/h2&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &lt;/header&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END HEADER --&gt;</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+
+        <p>
+            &nbsp;</p>
+
+
+        <h4>Sidebar Left</h4>
+
+
+        <table border="1" cellpadding="1" cellspacing="1" style="width: 100%;background-color: #f1f1f1;">
+	<tbody>
+		<tr>
+			<td>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN SIDERBAR --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &lt;aside id=&quot;sidebar&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN SIDERBAR CONTENT --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sidebar-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN SIDERBAR &gt;&gt;&gt; ABOUT ME --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;aside id=&quot;about-me&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sidebar-aside-title&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;About Me&lt;/h3&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;about-me-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;author-img&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;img-border-rounded&quot;&gt;&lt;img alt=&quot;Blog Author&quot; class=&quot;about-me-img&quot; src=&quot;images/about-me.jpg&quot;&gt;&lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&#39;t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn&#39;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks necessary.&lt;/p&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN SIDERBAR &gt;&gt;&gt; ABOUT ME &gt;&gt;&gt; SOCIAL WIDGET --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;socialwidget&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;social clearfix&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;fa fa-facebook&quot; href=&quot;#&quot; target=&quot;_blank&quot; title=&quot;Facebook&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;fa fa-twitter&quot; href=&quot;#&quot; target=&quot;_blank&quot; title=&quot;Twitter&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;fa fa-soundcloud&quot; href=&quot;#&quot; target=&quot;_blank&quot; title=&quot;SoundCloud&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;fa fa-google-plus&quot; href=&quot;#&quot; target=&quot;_blank&quot; title=&quot;Google+&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;fa fa-pinterest-p&quot; href=&quot;#&quot; target=&quot;_blank&quot; title=&quot;Pinterest&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;fa fa-instagram&quot; href=&quot;#&quot; target=&quot;_blank&quot; title=&quot;Instagram&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;fa fa-flickr&quot; href=&quot;#&quot; target=&quot;_blank&quot; title=&quot;Flickr&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;fa fa-youtube&quot; href=&quot;#&quot; target=&quot;_blank&quot; title=&quot;Youtube&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;fa fa-dribbble&quot; href=&quot;#&quot; target=&quot;_blank&quot; title=&quot;Dribbble&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;fa fa-soundcloud&quot; href=&quot;#&quot; target=&quot;_blank&quot; title=&quot;SoundCloud&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END SIDERBAR &gt;&gt;&gt; ABOUT ME &gt;&gt;&gt; SOCIAL WIDGET --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/aside&gt;&lt;!-- end aside #about-me --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END SIDERBAR &gt;&gt;&gt; ABOUT ME --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN SIDERBAR &gt;&gt;&gt; LASTEST POST --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;aside id=&quot;lastest-post&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sidebar-aside-title&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;Lastest Posts&lt;/h3&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;section&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;lastest-post-img&quot;&gt;&lt;img alt=&quot;Post image&quot; src=&quot;images/lastest-posts/1.png&quot;&gt;&lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;lastest-post-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;lastest-post-category&quot; href=&quot;single-page-first.html&quot;&gt;Web Scince&lt;/a&gt; &lt;a class=&quot;lastest-post-date&quot; href=&quot;single-page-first.html&quot;&gt;Jan 24,2016&lt;/a&gt; &lt;a class=&quot;lastest-post-title&quot; href=&quot;single-page-first.html&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;section&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;lastest-post-img&quot;&gt;&lt;img alt=&quot;Post image&quot; src=&quot;images/lastest-posts/2.png&quot;&gt;&lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;lastest-post-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;lastest-post-category&quot; href=&quot;single-page-first.html&quot;&gt;Design&lt;/a&gt; &lt;a class=&quot;lastest-post-date&quot; href=&quot;single-page-first.html&quot;&gt;Apr 17,2016&lt;/a&gt; &lt;a class=&quot;lastest-post-title&quot; href=&quot;single-page-first.html&quot;&gt;Nulla nec tortor lectus. Donec quis ornare leo. Duis vitae gravida nisl.&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;section&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;lastest-post-img&quot;&gt;&lt;img alt=&quot;Post image&quot; src=&quot;images/lastest-posts/3.png&quot;&gt;&lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;lastest-post-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;lastest-post-category&quot; href=&quot;single-page-first.html&quot;&gt;Css&lt;/a&gt; &lt;a class=&quot;lastest-post-date&quot; href=&quot;single-page-first.html&quot;&gt;MAY 15,2016&lt;/a&gt; &lt;a class=&quot;lastest-post-title&quot; href=&quot;single-page-first.html&quot;&gt;Bresaola filet mignon frankfurter.&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;section&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;lastest-post-img&quot;&gt;&lt;img alt=&quot;Post image&quot; src=&quot;images/lastest-posts/4.png&quot;&gt;&lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;lastest-post-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;lastest-post-category&quot; href=&quot;single-page-first.html&quot;&gt;Theme&lt;/a&gt; &lt;a class=&quot;lastest-post-date&quot; href=&quot;single-page-first.html&quot;&gt;Sep 01,2016&lt;/a&gt; &lt;a class=&quot;lastest-post-title&quot; href=&quot;single-page-first.html&quot;&gt;Turducken hamburger andouille ball.&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;section&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;lastest-post-img&quot;&gt;&lt;img alt=&quot;Post image&quot; src=&quot;images/lastest-posts/5.png&quot;&gt;&lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;lastest-post-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;lastest-post-category&quot; href=&quot;single-page-first.html&quot;&gt;Html&lt;/a&gt; &lt;a class=&quot;lastest-post-date&quot; href=&quot;single-page-first.html&quot;&gt;Dec 28,2016&lt;/a&gt; &lt;a class=&quot;lastest-post-title&quot; href=&quot;single-page-first.html&quot;&gt;About autos every thing try.&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;section&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;lastest-post-img&quot;&gt;&lt;img alt=&quot;Post image&quot; src=&quot;images/lastest-posts/6.png&quot;&gt;&lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;lastest-post-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;lastest-post-category&quot; href=&quot;single-page-first.html&quot;&gt;AngularJS&lt;/a&gt; &lt;a class=&quot;lastest-post-date&quot; href=&quot;single-page-first.html&quot;&gt;Nov 20,2016&lt;/a&gt; &lt;a class=&quot;lastest-post-title&quot; href=&quot;single-page-first.html&quot;&gt;Pork loin bresaola venison.&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;section&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;lastest-post-img&quot;&gt;&lt;img alt=&quot;Post image&quot; src=&quot;images/lastest-posts/7.png&quot;&gt;&lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;lastest-post-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;lastest-post-category&quot; href=&quot;single-page-first.html&quot;&gt;Autos&lt;/a&gt; &lt;a class=&quot;lastest-post-date&quot; href=&quot;single-page-first.html&quot;&gt;MAY 14,2016&lt;/a&gt; &lt;a class=&quot;lastest-post-title&quot; href=&quot;single-page-first.html&quot;&gt;About creative autos every things.&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/aside&gt;&lt;!-- end aside #lastest-post --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END SIDERBAR &gt;&gt;&gt; LASTEST POST --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN SIDERBAR &gt;&gt;&gt; COMMENTS --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;aside id=&quot;recent-comments&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sidebar-aside-title&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;Recent Comments&lt;/h3&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;recent-comments-list&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-author-link&quot; href=&quot;single-page-second.html&quot; rel=&quot;author&quot;&gt;John Doe&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&lt;em class=&quot;preposition&quot;&gt;on&lt;/em&gt;&lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-topic-link&quot; href=&quot;single-page-second.html&quot;&gt;&quot;Why This Theme Theme?&quot;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-link&quot; href=&quot;single-page-second.html&quot;&gt;&quot;Lorem Ipsum has been the industry&quot;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;recent-comments-list&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-author-link&quot; href=&quot;single-page-second.html&quot; rel=&quot;author&quot;&gt;John Doe2&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&lt;em class=&quot;preposition&quot;&gt;on&lt;/em&gt;&lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-topic-link&quot; href=&quot;single-page-second.html&quot;&gt;&quot;Awesome Support&quot;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-link&quot; href=&quot;single-page-second.html&quot;&gt;&quot;Suspendisse vehicula id neque vitae&quot;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;recent-comments-list&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-author-link&quot; href=&quot;single-page-second.html&quot; rel=&quot;author&quot;&gt;John Doe3&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&lt;em class=&quot;preposition&quot;&gt;on&lt;/em&gt;&lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-topic-link&quot; href=&quot;single-page-second.html&quot;&gt;&quot;Easily Configuration!&quot;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-link&quot; href=&quot;single-page-second.html&quot;&gt;&quot;Cras cursus nulla vitae augue auctor&quot;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;recent-comments-list&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-author-link&quot; href=&quot;single-page-second.html&quot; rel=&quot;author&quot;&gt;John Doe4&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&lt;em class=&quot;preposition&quot;&gt;on&lt;/em&gt;&lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-topic-link&quot; href=&quot;single-page-second.html&quot;&gt;&quot;Removing Limits!&quot;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-link&quot; href=&quot;single-page-second.html&quot;&gt;&quot;Lorem Ipsum has been the industry&quot;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;recent-comments-list&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-author-link&quot; href=&quot;single-page-second.html&quot; rel=&quot;author&quot;&gt;John Doe&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;&lt;em class=&quot;preposition&quot;&gt;on&lt;/em&gt;&lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-topic-link&quot; href=&quot;single-page-second.html&quot;&gt;&quot;Creative Design&quot;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;comment-link&quot; href=&quot;single-page-second.html&quot;&gt;&quot;Morbi commodo bibendum leo at&quot;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/aside&gt;&lt;!-- end aside #recent-comments --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END SIDERBAR &gt;&gt;&gt; COMMENTS --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN SIDERBAR &gt;&gt;&gt; TAGS --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;aside id=&quot;tag-cloud&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;sidebar-aside-title&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;Tag Cloud&lt;/h3&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;tagscontent&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;5 topics&quot;&gt;Car&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;1 topic&quot;&gt;Watch&lt;/a&gt;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;2 topics&quot;&gt;Design&lt;/a&gt;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;7 topic&quot;&gt;PHP&lt;/a&gt;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;1 topic&quot;&gt;Game&lt;/a&gt;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;1 topic&quot;&gt;Music&lt;/a&gt;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;4 topic&quot;&gt;Grafic&lt;/a&gt;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;1 topic&quot;&gt;Sun&lt;/a&gt;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;1 topic&quot;&gt;Food&lt;/a&gt;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;3 topic&quot;&gt;Rose&lt;/a&gt;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;1 topic&quot;&gt;Css&lt;/a&gt;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;1 topic&quot;&gt;Random&lt;/a&gt;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;1 topic&quot;&gt;Java&lt;/a&gt;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;1 topic&quot;&gt;Windows&lt;/a&gt;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot; rel=&quot;tag&quot; title=&quot;2 topic&quot;&gt;Linux&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/aside&gt;&lt;!-- end aside #tag-cloud --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END SIDERBAR &gt;&gt;&gt; TAGS --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;&lt;!-- END SIDERBAR CONTENT --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &lt;/aside&gt;&lt;!-- end aside #sidebar --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END SIDERBAR --&gt;</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            &nbsp;</p>
+
+        <h4>Main Content</h4>
+
+      <table border="1" cellpadding="1" cellspacing="1" style="width: 100%;background-color: #f1f1f1;">
+	<tbody>
+		<tr>
+			<td>
+				&nbsp; &nbsp; &nbsp; &nbsp;&lt;!-- BEGIN MAIN-CONTENT --&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;section id=&quot;main-content&quot;&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- BEGIN MENU --&gt;<br>
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ............................<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- END MENU --&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- BEGIN WRAPPER --&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;section class=&quot;wrapper&quot;&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- BEGIN YOUR HTML CODES GOES HERE --&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;p class=&quot;bg-primary text-center&quot;&gt;This is blank page.&lt;/p&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- END YOUR HTML CODES GOES HERE --&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/section&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- END WRAPPER --&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/section&gt;<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- END MAIN-CONTENT --&gt;</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+
+        <p>
+            &nbsp;</p>
+
+        <h4>Menu</h4>
+
+        <table border="1" cellpadding="1" cellspacing="1" style="width: 100%;background-color: #f1f1f1;">
+	<tbody>
+		<tr>
+			<td>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN MENU --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;navbar yamm navbar-default&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;navbar-header&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;button class=&quot;navbar-toggle&quot; data-target=&quot;#navbar-collapse-1&quot; data-toggle=&quot;collapse&quot; type=&quot;button&quot;&gt;&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;&lt;/button&gt; &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;MENU&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN NAVBAR --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;navbar-collapse collapse&quot; id=&quot;navbar-collapse-1&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;nav navbar-nav&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN MENU &gt;&gt;&gt; HOME --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li class=&quot;dropdown yamm-fw&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot;&gt;Home Modals&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;dropdown-menu full-width&quot; role=&quot;menu&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;yamm-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;row&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;col-md-3 bordered&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h4&gt;Full With&lt;/h4&gt;&lt;a href=&quot;index.html&quot;&gt;&lt;img alt=&quot;Full With&quot; class=&quot;autowidth&quot; src=&quot;images/homepages/Full-With.png&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;col-md-3 bordered&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h4&gt;Boxed&lt;/h4&gt;&lt;a href=&quot;index-boxed.html&quot;&gt;&lt;img alt=&quot;Boxed&quot; class=&quot;autowidth&quot; src=&quot;images/homepages/Boxed.png&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;col-md-3 bordered&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h4&gt;Boxed and Opacity&lt;/h4&gt;&lt;a href=&quot;index-boxed-and-opacity.html&quot;&gt;&lt;img alt=&quot;Boxed and Opacity&quot; class=&quot;autowidth&quot; src=&quot;images/homepages/Boxed-and-Opacity.png&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;col-md-3&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h4&gt;Fixed Header&lt;/h4&gt;&lt;a href=&quot;index-boxed-and-fixed.html&quot;&gt;&lt;img alt=&quot;Fixed Header Boxed&quot; class=&quot;autowidth&quot; src=&quot;images/homepages/Fixed-Boxed.png&quot;&gt;&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END MENU &gt;&gt;&gt; HOME --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN MENU &gt;&gt;&gt; ALTERNATIVE PAGES --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li class=&quot;dropdown yamm-fw&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot;&gt;Alternative Pages&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;dropdown-menu full-width&quot; role=&quot;menu&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;yamm-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;row&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;col-md-3 bordered&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h4&gt;Horizontal Posts&lt;/h4&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;megamenusubitems&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;horizontal-first.html&quot;&gt;Post Format First&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;horizontal-second.html&quot;&gt;Post Format Second&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;col-md-3 bordered&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h4&gt;Vertical Posts&lt;/h4&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;megamenusubitems&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;vertical-first.html&quot;&gt;Post Format First&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;vertical-second.html&quot;&gt;Post Format Second&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;vertical-third.html&quot;&gt;Post Format Third&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;col-md-3 bordered&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h4&gt;Single Pages&lt;/h4&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;megamenusubitems&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot;&gt;First Format&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-second.html&quot;&gt;Second Format&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;col-md-3&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h4&gt;Alternative Colors&lt;/h4&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;megamenusubitems&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;color-first.html&quot;&gt;First Color&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;color-second.html&quot;&gt;Second Color&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;color-third.html&quot;&gt;Third Color&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END MENU &gt;&gt;&gt; ALTERNATIVE PAGES --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN MENU &gt;&gt;&gt; ELEMENTS --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li class=&quot;dropdown&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot;&gt;Elements&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;dropdown-menu&quot; role=&quot;menu&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;yamm-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;row&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;col-md-12&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;buttons.html&quot;&gt;Buttons&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;typography.html&quot;&gt;Typography&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;icons.html&quot;&gt;Icons&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;layouts-and-grids.html&quot;&gt;Layouts and Grids&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;alerts-and-modals.html&quot;&gt;Alerts and Modals&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END MENU &gt;&gt;&gt; ELEMENTS --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN MENU &gt;&gt;&gt; ABOUT ME --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li class=&quot;dropdown yamm-fw&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot;&gt;About Me&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;dropdown-menu full-width&quot; role=&quot;menu&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;yamm-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;row&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;col-md-12&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;Lorem ipsum dolor sit amet, pro ne ullum saperet accusamus, ei facete discere constituam his. At velit vivendum per, mea error nobis tation an. Eos te scripta legimus scriptorem, eam iusto admodum signiferumque et, id duo invenire molestiae gloriatur. Ut mel veniam aeterno, modus iriure animal id usu. Omnis partem graeci ad sea, etiam dignissim forensibus ne ius.&lt;/p&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;col-md-6&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h4&gt;About Me&lt;/h4&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class=&quot;small text-center&quot;&gt;&lt;img alt=&quot;about me&quot; class=&quot;autowidth&quot; src=&quot;images/about-me-menu.jpg&quot;&gt;&lt;br&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;br&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Lorem ipsum dolor sit amet, pro ne ullum saperet accusamus, ei facete discere constituam his. At velit vivendum per, mea error nobis tation an. Eos te scripta legimus scriptorem, eam iusto admodum signiferumque et, id duo invenire molestiae gloriatur. Ut mel veniam aeterno.&lt;/p&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;col-md-6&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h4&gt;Help&lt;/h4&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;megamenusubitems hrlist&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot;&gt;Why You Need The This Theme&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-second.html&quot;&gt;Awesome Post Style&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot;&gt;Amazing Layouts&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-second.html&quot;&gt;Creative Theme&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot;&gt;Clean Code&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-second.html&quot;&gt;Fully Responsive&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href=&quot;single-page-first.html&quot;&gt;Powerful document&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END MENU &gt;&gt;&gt; ABOUT ME --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN MENU &gt;&gt;&gt; CONTACT --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li class=&quot;dropdown yamm-fw&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; href=&quot;#&quot;&gt;Contact&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class=&quot;dropdown-menu full-width&quot; role=&quot;menu&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;yamm-content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;row&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;col-md-6 bordered&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h4&gt;Our locations&lt;/h4&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;overflow&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;iframe allowfullscreen=&quot;&quot; height=&quot;350&quot; src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2642995875403!2d2.7736192151536967!3d48.87223790768642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61d19ca7ae2bd%3A0x57faf8cb6310e660!2sDisneyland+Paris!5e0!3m2!1str!2str!4v1452609354524&quot; style=&quot;border:0;frameborder:0; width:100%&quot;&gt;&lt;/iframe&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;col-md-6&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class=&quot;content&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h4&gt;Contact Us&lt;/h4&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;address&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 77777 Marne-la-Vall&eacute;e Disneyland Paris Lunapark, Fransa&lt;br&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;hr&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tel 1: +33 000 00 00 00&lt;br&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;hr&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tel 2: +33 000 00 00 01&lt;br&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;hr&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Fax : +33 000 00 00 00&lt;br&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;hr&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Email: &lt;a href=&quot;#&quot;&gt;mail@mail.com&lt;/a&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/address&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END MENU &gt;&gt;&gt; CONTACT --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END NAVBAR --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END MENU --&gt;</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+
+        <p>
+            &nbsp;</p>
+
+        <h4>Wrapper</h4>
+
+        <table border="1" cellpadding="1" cellspacing="1" style="width: 100%;background-color: #f1f1f1;">
+	<tbody>
+		<tr>
+			<td>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!-- BEGIN WRAPPER --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;section class=&quot;wrapper&quot;&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- BEGIN YOUR HTML CODES GOES HERE --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class=&quot;bg-primary text-center&quot;&gt;This is blank page.&lt;/p&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END YOUR HTML CODES GOES HERE --&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/section&gt;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- END WRAPPER --&gt;</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+
+        <p>
+            &nbsp;</p>
+
+
+        <h4>End of Page</h4>
+
+        <table border="1" cellpadding="1" cellspacing="1" style="width: 100%;background-color: #f1f1f1;">
+            <tbody>
+                <tr>
+                    <td>
+                        <div>
+	&nbsp; &nbsp; &lt;!-- For pages load more &nbsp;faster, placed js at the end of the document. --&gt;</div>
+<div>
+	&nbsp; &nbsp; &lt;!--Core js--&gt;</div>
+<div>
+	&nbsp; &nbsp; &lt;script src=&quot;js/jquery.js&quot;&gt;&lt;/script&gt;</div>
+<div>
+	&nbsp; &nbsp; &lt;script src=&quot;bootstrap/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;</div>
+<div>
+	&nbsp; &nbsp; &lt;script src=&quot;js/jquery.nicescroll.js&quot;&gt;&lt;/script&gt;</div>
+<div>
+	&nbsp; &nbsp; &lt;script src=&quot;js/scripts.js&quot;&gt;&lt;/script&gt;</div>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            &nbsp;</p>
+
+
+
+
+        <h3 id="fifth"><strong>E) JavaScript</strong> - <a href="#toc">top</a></h3>
+
+
+            <table border="1" cellpadding="1" cellspacing="1" style="width: 100%;background-color: #f1f1f1;">
+	<tbody>
+		<tr>
+			<td>
+				&nbsp; &nbsp; $(document).ready(function () {
+				<div>
+					&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; /* ==========================================================================</div>
+				<div>
+					&nbsp; &nbsp; SIDEBAR HIDE/SHOW</div>
+				<div>
+					&nbsp; &nbsp; ========================================================================== */</div>
+				<div>
+					&nbsp; &nbsp;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; $(&#39;.sidebar-arrow-box .fa-arrow-left&#39;).click(function () {</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; if ($(&#39;.sidebar-arrow-box&#39;).hasClass(&#39;box_rotateback box_transitionback&#39;)) {</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $(&#39;.sidebar-arrow-box&#39;).removeClass(&#39;box_rotateback box_transitionback&#39;);</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $(&#39;.sidebar-arrow-box&#39;).addClass(&#39;box_rotate box_transition&#39;);</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; } else {</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $(&#39;.sidebar-arrow-box&#39;).removeClass(&#39;box_rotate box_transition&#39;);</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $(&#39;.sidebar-arrow-box&#39;).addClass(&#39;box_rotateback box_transitionback&#39;);</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; }</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; $(&#39;#sidebar&#39;).toggleClass(&#39;hide-left-bar&#39;);</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; if ($(&#39;#sidebar&#39;).hasClass(&#39;hide-left-bar&#39;)) {</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $(&quot;.sidebar-content&quot;).getNiceScroll().hide();</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; }</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; $(&quot;.sidebar-content&quot;).getNiceScroll().show();</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; $(&#39;#main-content&#39;).toggleClass(&#39;force-left&#39;);</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; });</div>
+				<div>
+					&nbsp; &nbsp;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; /* ==========================================================================</div>
+				<div>
+					&nbsp; &nbsp; NICE SCROLL</div>
+				<div>
+					&nbsp; &nbsp; ========================================================================== */</div>
+				<div>
+					&nbsp; &nbsp; if ($.fn.niceScroll) {</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; $(&quot;.sidebar-content&quot;).niceScroll({</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cursorcolor: &quot;#1FB5AD&quot;,</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cursorborder: &quot;0px solid #fff&quot;,</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cursorborderradius: &quot;0px&quot;,</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cursorwidth: &quot;3px&quot;,</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cursoropacitymin: &quot;0&quot;,</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cursoropacitymax: &quot;1&quot;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; });</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; $(&quot;.sidebar-content&quot;).getNiceScroll().resize();</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; if ($(&#39;#sidebar&#39;).hasClass(&#39;hide-left-bar&#39;)) {</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $(&quot;.sidebar-content&quot;).getNiceScroll().hide();</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; }</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; $(&quot;.sidebar-content&quot;).getNiceScroll().show();</div>
+				<div>
+					&nbsp; &nbsp; };</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; /* ==========================================================================</div>
+				<div>
+					&nbsp; &nbsp; FIXING LABEL</div>
+				<div>
+					&nbsp; &nbsp; ========================================================================== */</div>
+				<div>
+					&nbsp; &nbsp;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; $(&quot;form :input&quot;).each(function (index, elem) {</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; var eId = $(elem).attr(&quot;id&quot;);</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; var label = null;</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; if (eId &amp;&amp; (label = $(elem).parents(&quot;form&quot;).find(&quot;label[for=&quot; + eId + &quot;]&quot;)).length == 1) {</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $(elem).attr(&quot;placeholder&quot;, $(label).html());</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $(label).remove();</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; }</div>
+				<div>
+					&nbsp; &nbsp; });</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; /* ==========================================================================</div>
+				<div>
+					&nbsp; &nbsp; FIXING MENU</div>
+				<div>
+					&nbsp; &nbsp; ========================================================================== */</div>
+				<div>
+					&nbsp; &nbsp;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; $(document).on(&#39;click&#39;, &#39;.yamm .dropdown-menu&#39;, function (e) {</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; e.stopPropagation()</div>
+				<div>
+					&nbsp; &nbsp; });</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; /* ==========================================================================</div>
+				<div>
+					&nbsp; &nbsp; STICKY SIDEBAR FOR BOXED WIDTH (FIXING WRAPPER HEIGHT &gt; SIDEBAR HEIGHT)</div>
+				<div>
+					&nbsp; &nbsp; ========================================================================== */</div>
+				<div>
+					&nbsp; &nbsp;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; var stickySidebarTop = $(&#39;body.boxed #sidebar&#39;).offset().top;</div>
+				<div>
+					&nbsp; &nbsp; var stickySidebar = function(){</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; var scrollTop = $(window).scrollTop();</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; if (scrollTop &gt; stickySidebarTop) {</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $(&#39;body.boxed #sidebar&#39;).addClass(&#39;sticky-sidebar&#39;);</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; } else {</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $(&#39;body.boxed #sidebar&#39;).removeClass(&#39;sticky-sidebar&#39;);</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; }</div>
+				<div>
+					&nbsp; &nbsp; };</div>
+				<div>
+					&nbsp; &nbsp;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; stickySidebar();</div>
+				<div>
+					&nbsp; &nbsp; $(window).scroll(function() {</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; stickySidebar();</div>
+				<div>
+					&nbsp; &nbsp; });</div>
+				<div>
+					&nbsp; &nbsp;&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; /* ==========================================================================</div>
+				<div>
+					&nbsp; &nbsp; YOUR CODES</div>
+				<div>
+					&nbsp; &nbsp; ========================================================================== */</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					&nbsp; &nbsp; $(document).ready(function () {</div>
+				<div>
+					&nbsp; &nbsp; &nbsp; &nbsp; //YOUR JAVASCRIPT CODES GOES HERE</div>
+				<div>
+					&nbsp; &nbsp; });</div>
+				<div>
+					&nbsp; &nbsp;&nbsp;</div>
+				<div>
+					});</div>
+				<div>
+					&nbsp;</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+
+
+            <hr>
+            <h3 id="sixth"><strong>F) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+            <p>Thanks so much to
+                <br> I've used the following images, icons or other files as listed.</p>
+            <ul>
+                <li>jQuery</li>
+                <li>Twitter Bootstrap</li>
+                <li>Nicescroll.js</li>
+                <li>unsplash.com</li>
+                <li>Font Awesome</li>
+                <li>Yamm3</li>
+            </ul>
+
+
+            <hr>
+            <h3 id="seventh"><strong>G) Frequently asked questions and help</strong> - <a href="#toc">top</a></h3>
+            <strong>SEO</strong>
+            <p> This theme optimized for seo. In main title's we used h1 tag. Increase for your seo, don't forget using h2, h3 or h4  codes in content. </p>
+            
+            
+            <strong>Layouts</strong>
+            <p> body classes are full-width , boxed, opacity and fixed. When you change body class, theme layouts will change. </p>
+            
+            
+            <strong>How do I begin?</strong>
+            <p> Firstly you can chose main layout and color. Change in sass folder your scss variables. Thats are </p>
+            <table border="1" cellpadding="1" cellspacing="1" style="width: 100%;background-color: #f1f1f1;">
+	<tbody>
+		<tr>
+			<td>
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;/*###### &nbsp;VARIABLES &nbsp;######*/
+				<div>
+					&nbsp;</div>
+				<div>
+					$font-family: &quot;Open Sans&quot;, sans-serif;</div>
+				<div>
+					$font-weight: 400;</div>
+				<div>
+					$font-size: 13px;</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					$main-color: #ADCA57;</div>
+				<div>
+					$main-background-color: #f1f1f1;</div>
+				<div>
+					$header-background-color: #fff;</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					$boxed-width: 90%;</div>
+				<div>
+					$site-background: url(../images/background.jpg) center center no-repeat fixed;</div>
+				<div>
+					$site-background-size: cover;</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					$arrow-color: #fff;</div>
+				<div>
+					$arrow-background-color: $main-color;</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					$topbar-background: #3d867d;</div>
+				<div>
+					$sidebar-background: #3d867d;</div>
+				<div>
+					$sidebar-second-background: #19514e;</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					$sidebar-aside-title-color: #fff;</div>
+				<div>
+					$sidebar-aside-title-font-weight: 300;</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					$animation: all 0.3s ease-in-out;</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					$post-title-font-weigt: 300;</div>
+				<div>
+					$post-title: uppercase;</div>
+				<div>
+					$after-post: &#39;[...]&#39;;</div>
+				<div>
+					$category-separator: &#39;/&#39;;</div>
+				<div>
+					&nbsp;</div>
+				<div>
+					$modern-list-separator: &quot; , &quot;;</div>
+				<div>
+					$modern-list-separator-before-last: &quot; and &quot;;</div>
+				<div>
+					$modern-list-separator-last: &quot;.&quot;;</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p>
+	&nbsp;</p>
+            
+            <strong>This theme have problem</strong>
+            <p> If you show any bug please report to us. We will update quickly.  </p>
+            
+            
+
+
+            <hr>
+            
+            
+            
+
+            <p>I'll do my best to assist. If you have aquestion feel free to contact with me. Thank you.</p>
+
+            <p class="append-bottom alt large"><strong>Cengiz Demir</strong></p>
+            <p><a href="#toc">Go To Table of Contents</a></p>
+
+            <hr class="space">
+
+
+
+
+    <!-- end div .container -->
+</body>
+</html>
