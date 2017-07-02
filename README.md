@@ -42,4 +42,4 @@ GNU General Public License
 
 ## Bugs
 
-If you show any bug please report to me. We will update quickly.
+If you show any bug please report to me. I will update quickly.
